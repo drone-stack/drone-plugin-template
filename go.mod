@@ -1,12 +1,10 @@
 module github.com/drone-stack/drone-plugin-template
 
-go 1.23.0
-
-toolchain go1.24.4
+go 1.26.1
 
 require (
 	github.com/joho/godotenv v1.5.1
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.9.4
 	github.com/urfave/cli v1.22.17
 )
 
